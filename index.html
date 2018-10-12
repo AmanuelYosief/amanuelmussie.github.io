@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>Amanuel Yosief Mussie	</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+		<style>
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+</style>
+</head>
+
+<body>
+<!-- .hero -->
+<section class="hero ">
+  <div class="hero-body">
+    <div class="container">
+      <figure class="image center">
+        <img src="images/Name.png" style="max-width: 512px;">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+      <div class="columns features">
+
+				<div class="column is-4">
+					<div class="card is-shady">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="images/Website.png">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								<h4>Build 1st website and host it</h4>
+								<p>Summer of 2018. I learnt CSS, HTML to build and host a <a href="https://github.com/AmanuelYosief/amanuelyosief.github.io">blog</a> website. It was a starter site with hyperlinks. I now have expanded and learnt JavaScript, using custome CSS templates such as Bulma and Boostrap to develop the site and create animations.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/java.png">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Java Game Project</h4>
+                <p>  <a href="#">Click on the image above to view the Java Game </a> Java project used to showcase my programming knowledge from the first semester of University.  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<div class="column is-4">
+					<div class="card is-shady">
+
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="images/TLC1.png" alt="repair image" class="modal-button" data-target="modal-RepairProject">
+							</figure>
+						</div>
+						<div class="card-content  modal-button" data-target="modal-card3">
+							<div class="content">
+								<h4>The Repair Clinic</h4>
+								<p>As part of 2nd year of A level. We had to produce a software within 6 months for a real problem. I decided to tackle the issue faced by "The Repair Clinic" store, based in Croydon. This software was bespoke to their requirement and intended to fix their issues while providing officiency and ease of use. </p>
+								 <span class="button is-link modal-button" data-target="modal-card">Read more</span>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+    </section>
+
+		<footer class="footer">
+		            <div class="container">
+		                <div class="content has-text-centered">
+		                    <div class="soc">
+															<a href="https://github.com/AmanuelYosief"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+		                        <a href="https://github.com/AmanuelYosief"><i class="fab fa-github-alt fa-2x" aria-hidden="true"></i></a>
+		                        <a href="https://www.youtube.com/user/UltimateNoobsUK/featured?view_as=subscriber"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+		                        <a href="https://twitter.com/amenuel_yosief"><i class="fab fa-twitter fa-2x"></i></a>
+		                    </div>
+		                    <p>
+		                        <strong>Profolio Website</strong> by <a href="">Amanuel Yosief Mussie</a>.
+		                        Source code can be found on GitHub <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br>
+		                    </p>
+		                </div>
+		            </div>
+		        </footer>
+
+					<div id="modal-card3" class="modal modal-fx-3dSlit">
+						<div class="modal-background"></div>
+						<div class="modal-content is-tiny">
+							<!-- content -->
+							<div class="card">
+								<div class="card-content">
+									<div class="content ">
+										<h5> Sample images and documentation of The Replair Clinic software:  </h5> The Repair Clinic (TRC) application onboarded all the different applications used by the TRC into one application rather than the usual of using multiple applications at the same time and shuffling between them.<br />
+										•	It provided an interface for employees to login, register, retrieve forgotten details, email, set calendar appointments, store & contact customers and record & print financial records. <br />
+										•	Microsoft Access & SQL was used for data management system. Java and Visual Basic for application building.
+										<br>
+									</div>
+								</div>
+								<img src="images/TLC1.png" style="max-width: 620px;">
+								<img src="images/TLC2.png" style="max-width: 620px;">
+								<img src="images/TLC3.png" style="max-width: 620px;">
+								<img src="images/TLC4.png" style="max-width: 620px;">
+							</div>
+							<!-- end content -->
+						</div>
+						<button class="modal-close is-large" aria-label="close"></button>
+					</div>
+			    <!-- end tiny modal card -->
+
+			    <!-- Image modal-->
+					<div id="modal-RepairProject" class="modal modal-fx-3dSlit">
+						<div class="modal-background"></div>
+						<div class="modal-content is-huge is-image">
+							<!-- content -->
+
+								<img src="images/TLC1.png" style="max-width: 600px;">
+
+
+							<!-- end content -->
+						</div>
+						<button class="modal-close is-large" aria-label="close"></button>
+					</div>
+
+			    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+			    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+			    <script src="../js/wild.js"></script>
+</body>
+
+
+
+</html>
