@@ -1,0 +1,12 @@
+.navbar-light .navbar-brand {
+  line-height: 80px;
+}
+
+@media (min-width:768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
