@@ -1,0 +1,23 @@
+{
+  "name": "Amanuel Yosief Mussie",
+  "short_name": "Amanuel Yosief",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#964B00",
+  "theme_color": "#964B00",
+  "description": "Amanuel Yosief's Profolio Website",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/profolio_image.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/profolio_image.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
